@@ -1,0 +1,30 @@
+    1  git config --global user.name "Diana Tsimokh"
+    2  git config --global user.email grinich1991@gmail.com
+    3  git clone https://github.com/DianaTsimokh/HW_10.git
+    4  cd HW_10
+    5  touch text_ignore.txt
+    6  nano .gitignore
+    7  git status
+    8  git add .gitignore
+    9  git commit -m "Task 1"
+   10  touch main_test.txt
+   11  git add main_test.txt
+   12  git commit -m "Task 2"
+   13  git checkout -b develop
+   14  git checkout develop
+   15  touch develop_test.txt
+   16  git add
+   17  git add develop
+   18  git add develop_test.txt
+   19  git commit -m "Task 3"
+   20  nano develop_test.txt
+   21  git status
+   22  git add
+   23  git add .
+   24  git commit -m "Task 3"
+   25  git checkouy main
+   26  git checkout main
+   27  git checkout main
+   28  git merge develop
+   29  git log
+   30  history > command_list.csv
